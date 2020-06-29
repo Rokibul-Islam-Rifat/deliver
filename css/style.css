@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -8,5 +9,322 @@ html {
 }
 
 
-/* font-family: 'Pacifico', cursive;
-font-family: 'Poppins', sans-serif; */
+/* header part start */
+
+.header {
+    background: url(../img/slider-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand a {
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.social-icon ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #d8d2c7;
+    transition: 0.5s all ease;
+}
+
+.social-icon ul li:hover {
+    background: #ffffff;
+}
+
+.social-icon ul li a {
+    text-decoration: none;
+    color: #665c51;
+}
+
+.social-icon ul li a i {
+    font-size: 15px;
+    margin: 8px;
+}
+
+.social-icon ul {
+    padding-top: 15px;
+}
+
+.hr {
+    background-color: #ffffff;
+}
+
+
+/* menu part start */
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu ul li a {
+    font-size: 14px;
+    color: #ffffff!important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu ul li {
+    padding: 0 16px;
+}
+
+.menu ul li.active a {
+    color: #87b672!important;
+}
+
+.menu ul {
+    margin-left: -21px;
+}
+
+.btn-search {
+    color: #ffffff;
+}
+
+.btn-search:hover {
+    color: #87b672;
+}
+
+
+/* menu part end */
+
+
+/* slider part start */
+
+.slider-content {
+    padding: 50px 0;
+    color: #ffffff;
+}
+
+.slider-content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 90px;
+}
+
+.b-tc {
+    color: #87b672;
+}
+
+.slider-content p {
+    font-size: 22px;
+}
+
+.btn-slider {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.btn-slider:hover {
+    color: #87b672;
+    border: 2px solid #87b672;
+}
+
+.carousel-control-prev-icon {
+    background: none;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    background-color: #656255;
+    border-radius: 50%;
+    margin-left: -120%;
+}
+
+.carousel-control-prev-icon i {
+    color: #3e3828;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: #ffffff;
+}
+
+.carousel-control-next-icon {
+    background: none;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    background-color: #656255;
+    border-radius: 50%;
+    margin-right: -120%;
+}
+
+.carousel-control-next-icon i {
+    color: #3e3828;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.carousel-control-next-icon:hover {
+    background-color: #ffffff;
+}
+
+.carousel-indicators {
+    bottom: -70px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.carousel-indicators li:hover {
+    transform: scale(1.5);
+}
+
+.carousel-indicators .active {
+    transform: scale(1.4);
+}
+
+
+/* slider part end */
+
+
+/* header part end */
+
+
+/* service part start */
+
+.service {
+    padding: 80px 0;
+    background: #fefefe;
+}
+
+.common-title h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #666262;
+}
+
+.common-title p {
+    font-size: 14px;
+    color: #9b9999;
+}
+
+.service-item {
+    padding-top: 60px;
+}
+
+.service-item i {
+    font-size: 100px;
+    color: #c6c5c5;
+    padding-bottom: 25px;
+}
+
+.service-item h3 {
+    font-size: 22px;
+    color: #666262;
+    text-transform: uppercase;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: #9b9999;
+    padding-bottom: 20px;
+}
+
+.p-style {
+    font-size: 17px!important;
+    color: #87b672!important;
+    text-transform: capitalize;
+}
+
+
+/* service part end */
+
+
+/* portfolio part start */
+
+.portfolio {
+    padding: 80px 0;
+    background: #efefef;
+}
+
+
+/* portfolio hover icon */
+
+.img-hover {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.img-hover:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    color: #c1c1c1;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-plus:hover {
+    color: #c1c1c1;
+}
+
+.overlay:hover i {
+    background: #464c52;
+    padding: 8px;
+}
+
+.t-style {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #666262;
+    padding-top: 20px;
+}
+
+
+/* portfolio hover icon */
+
+
+/* portfolio part end */
+
+
+/* font-family: 'Pacifico', cursive; */
