@@ -216,6 +216,7 @@ html {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #666262;
+    padding-bottom: 15px;
 }
 
 .common-title p {
@@ -258,7 +259,7 @@ html {
 /* portfolio part start */
 
 .portfolio {
-    padding: 80px 0;
+    padding: 80px 0 20px 0;
     background: #efefef;
 }
 
@@ -322,6 +323,27 @@ html {
 
 
 /* portfolio hover icon */
+
+.common-part {
+    padding: 60px 0;
+    background: #fefefe;
+}
+
+.btn-custom {
+    color: #ffffff;
+    background: #87b672;
+    padding: 12px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.btn-custom:hover {
+    color: #87b672;
+    border: 2px solid #87b672;
+    background: transparent;
+}
 
 
 /* portfolio part end */
